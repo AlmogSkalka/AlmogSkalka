@@ -1,0 +1,69 @@
+﻿
+td {
+    height: 20px;
+    width: 20px;
+}
+
+.yellowTd {
+    background-color: yellow;
+}
+
+.subP, .subC {
+    background-color: black;
+}
+
+.RedTdP, .RedTdC {
+    background-color: red;
+}
+
+
+.GreyTd {
+    background-color: gray;
+}
+
+.regularTd {
+    background-color: white;
+}
+#GameOver {
+    text-align: center;
+    display: none;
+}
+
+#GameDiv {
+    width: 30%;
+    float: left;
+}
+#DigitalGameDiv {
+    width: 30%;
+    float: left;
+}
+#twoBoards {
+    position: relative
+}
+#container {
+    margin: 0px auto;
+    padding-left:600px;
+    padding-top: 100px;
+
+}
+
+#audio {
+    display: none;
+    width: 560px; /* you have to have a size or this method doesn't work */
+    height: 315px; /* think about making these max-width instead - might give you some more responsiveness */
+
+    position: fixed; /* positions out of the flow, but according to the nearest parent */
+    top: 0;
+    right: 0; /* confuse it i guess */
+    bottom: 0;
+    left: initial;
+    margin: auto; /* make em equal */
+}
+
+.pauseMusic {
+    display: none;
+}
+
+.pauseMusicBtn {
+    display: none;
+}
